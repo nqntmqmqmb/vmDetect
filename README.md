@@ -7,6 +7,6 @@ A basic VMDetector<br/>
 ## VM Detected popup
 <img src="https://image.prntscr.com/image/WywC4lyPSjayJpEHozh40w.png"/><br/>
 ## Demonstration
-<img src="https://i.imgur.com/7Qojtha.gif"/>
+<img src="https://i.imgur.com/7Qojtha.gif"/><br/>
 ## Recommandation
 Use an obfuscator else it will be very easy to bypass
