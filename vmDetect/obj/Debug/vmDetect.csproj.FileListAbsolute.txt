@@ -1,0 +1,10 @@
+C:\Users\coldboot\source\repos\vmDetect\vmDetect\obj\Debug\vmDetect.csprojAssemblyReference.cache
+C:\Users\coldboot\source\repos\vmDetect\vmDetect\obj\Debug\vmDetect.Form1.resources
+C:\Users\coldboot\source\repos\vmDetect\vmDetect\obj\Debug\vmDetect.Properties.Resources.resources
+C:\Users\coldboot\source\repos\vmDetect\vmDetect\obj\Debug\vmDetect.csproj.GenerateResource.cache
+C:\Users\coldboot\source\repos\vmDetect\vmDetect\obj\Debug\vmDetect.csproj.CoreCompileInputs.cache
+C:\Users\coldboot\source\repos\vmDetect\vmDetect\bin\Debug\vmDetect.exe.config
+C:\Users\coldboot\source\repos\vmDetect\vmDetect\bin\Debug\vmDetect.exe
+C:\Users\coldboot\source\repos\vmDetect\vmDetect\bin\Debug\vmDetect.pdb
+C:\Users\coldboot\source\repos\vmDetect\vmDetect\obj\Debug\vmDetect.exe
+C:\Users\coldboot\source\repos\vmDetect\vmDetect\obj\Debug\vmDetect.pdb
