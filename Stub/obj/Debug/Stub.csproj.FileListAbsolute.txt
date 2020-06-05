@@ -1,0 +1,10 @@
+C:\Users\coldboot\source\repos\Stub\Stub\bin\Debug\Stub.exe.config
+C:\Users\coldboot\source\repos\Stub\Stub\bin\Debug\Stub.exe
+C:\Users\coldboot\source\repos\Stub\Stub\bin\Debug\Stub.pdb
+C:\Users\coldboot\source\repos\Stub\Stub\obj\Debug\Stub.csprojAssemblyReference.cache
+C:\Users\coldboot\source\repos\Stub\Stub\obj\Debug\Stub.Form1.resources
+C:\Users\coldboot\source\repos\Stub\Stub\obj\Debug\Stub.Properties.Resources.resources
+C:\Users\coldboot\source\repos\Stub\Stub\obj\Debug\Stub.csproj.GenerateResource.cache
+C:\Users\coldboot\source\repos\Stub\Stub\obj\Debug\Stub.csproj.CoreCompileInputs.cache
+C:\Users\coldboot\source\repos\Stub\Stub\obj\Debug\Stub.exe
+C:\Users\coldboot\source\repos\Stub\Stub\obj\Debug\Stub.pdb
