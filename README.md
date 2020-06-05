@@ -8,3 +8,5 @@ A basic VMDetector<br/>
 <img src="https://image.prntscr.com/image/WywC4lyPSjayJpEHozh40w.png"/><br/>
 ## Demonstration
 <img src="https://i.imgur.com/7Qojtha.gif"/>
+## Recommandation
+Use an obfuscator else it will be very easy to bypass
